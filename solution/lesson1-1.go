@@ -11,7 +11,7 @@ import (
 // you can write to stdout for debugging purposes, e.g.
 // fmt.Println("this is a debug message")
 
-func Lesson1Solution1(N int) int {
+func BinaryGap(N int) int {
 	// Implement your solution here
 	bin := integerToBinary(N)
 	res := strings.Split(bin, "1")

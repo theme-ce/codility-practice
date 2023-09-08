@@ -7,7 +7,7 @@ package solution
 // you can write to stdout for debugging purposes, e.g.
 // fmt.Println("this is a debug message")
 
-func Lesson2Solution1(A []int, K int) []int {
+func CyclicRotation(A []int, K int) []int {
 	// Implement your solution here
 	res := A
 

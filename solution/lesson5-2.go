@@ -7,17 +7,10 @@ package solution
 // you can write to stdout for debugging purposes, e.g.
 // fmt.Println("this is a debug message")
 
-func OddOccurrencesInArray(A []int) int {
+func CountDiv(A int, B int, K int) int {
 	// Implement your solution here
-	mapPair := map[int]int{}
-	for i := range A {
-		mapPair[A[i]] += 1
+	if A%K == 0 {
+		return (B / K) - (A / K) + 1
 	}
-
-	for key, value := range mapPair {
-		if value%2 != 0 {
-			return key
-		}
-	}
-	return 0
+	return (B / K) - (A / K)
 }

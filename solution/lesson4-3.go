@@ -7,7 +7,7 @@ package solution
 // you can write to stdout for debugging purposes, e.g.
 // fmt.Println("this is a debug message")
 
-func Lesson4Solution3(N int, A []int) []int {
+func MaxCounters(N int, A []int) []int {
 	// Implement your solution here
 	arr := make([]int, N)
 	currentMax := 0

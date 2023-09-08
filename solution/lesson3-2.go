@@ -7,7 +7,7 @@ package solution
 // you can write to stdout for debugging purposes, e.g.
 // fmt.Println("this is a debug message")
 
-func Lesson3Solution2(A []int) int {
+func PermMissingElem(A []int) int {
 	// Implement your solution here
 	n := len(A)
 	totalSum := (n + 1) * (n + 2) / 2

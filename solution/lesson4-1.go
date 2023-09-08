@@ -7,7 +7,7 @@ package solution
 // you can write to stdout for debugging purposes, e.g.
 // fmt.Println("this is a debug message")
 
-func Lesson4Solution1(X int, A []int) int {
+func FrogRiverOne(X int, A []int) int {
 	// Implement your solution here
 	neededNumber := make(map[int]bool)
 	for i := 0; i < X; i++ {

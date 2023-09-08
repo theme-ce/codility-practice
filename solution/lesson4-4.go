@@ -7,7 +7,7 @@ package solution
 // you can write to stdout for debugging purposes, e.g.
 // fmt.Println("this is a debug message")
 
-func Lesson4Solution4(A []int) int {
+func MissingInteger(A []int) int {
 	// Implement your solution here
 	uniqueNum := make(map[int]bool)
 

@@ -7,7 +7,7 @@ package solution
 // you can write to stdout for debugging purposes, e.g.
 // fmt.Println("this is a debug message")
 
-func Lesson4Solution2(A []int) int {
+func PermCheck(A []int) int {
 	// Implement your solution here
 	neededNumber := make(map[int]bool)
 	for i := range A {

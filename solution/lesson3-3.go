@@ -9,7 +9,7 @@ import "math"
 // you can write to stdout for debugging purposes, e.g.
 // fmt.Println("this is a debug message")
 
-func Lesson3Solution3(A []int) int {
+func TapeEquilibrium(A []int) int {
 	// Implement your solution here
 	totalSum := 0
 	for _, num := range A {

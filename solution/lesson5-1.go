@@ -7,7 +7,7 @@ package solution
 // you can write to stdout for debugging purposes, e.g.
 // fmt.Println("this is a debug message")
 
-func Lesson5Solution1(A []int) int {
+func PassingCars(A []int) int {
 	// Implement your solution here
 	startCount := false
 	count := 0
