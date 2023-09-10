@@ -7,7 +7,7 @@ package solution
 // you can write to stdout for debugging purposes, e.g.
 // fmt.Println("this is a debug message")
 
-func Solution(A []int) int {
+func Distinct(A []int) int {
 	// Implement your solution here
 	distinct := make(map[int]bool)
 
